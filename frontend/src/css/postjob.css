@@ -1,0 +1,172 @@
+.navbarBackground{
+    background-color: #21364B;
+    position: absolute;
+    width: 100vw;
+    height: 15vh;
+    z-index: 1;
+}
+
+
+.Recruiter_Post_Job{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding-top: 6%;
+    align-items: center;
+    /* background-color: #21364B; */
+}
+.jobPostHeading{
+    margin-top: 5rem;
+    background-color: white;
+    width: 100%;
+    
+}
+
+.jobPostHeading h1{
+    font-size: 3rem;
+    color:#21364B;
+    
+    margin-bottom:0 ;
+}
+
+.jobPostHeading h4{
+    font-size: 1rem;
+    color: #21364B;
+    font-style: italic;
+    /* margin-bottom:0 ; */
+}
+
+.post_job_form h3{
+    /* width: 100%; */
+
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    /* left: 15rem; */
+
+}
+
+.post_job_form{
+    /* background-color:rgb(244, 61, 61); */
+    position: relative;
+    margin-top: 0;
+    margin: 0 auto;
+    width: 70vw;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.top-form{
+    /* background-color: aqua; */
+    position: relative;
+    width: 60vw;
+    margin: 0 auto;
+    /* margin: 0 auto; */
+
+
+}
+
+.job_description{
+    width: 100%;
+    text-align: center;
+    
+}
+
+#margin-top-bottom{
+    margin-top: 2vh;
+
+}
+
+.job_description textarea{
+    background-color: #f6f9fc;
+    width: 60vw;
+    border-radius: 20px;
+    padding: 2rem;
+    border-width: 3px;
+    border-color: #21364B;
+    height: 30vh;
+    
+}
+
+.bottom-form{
+    /* background-color: aqua; */
+    padding: 0 50px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.bottom-form input{
+    margin-left: 0;
+    width: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+
+
+
+.add-skills-btn{
+    margin-left: -20rem;
+    padding: 10px;
+}
+
+.individual_skill_job_post{
+    width: auto;
+    max-width: 150px;
+    padding: 10 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 3px;
+    margin-bottom: 10px;
+    background-color: #21364B;
+    color: #FCC125;
+
+}
+
+
+/* .post_job_individual_key{
+    text-align: center;
+    
+    background-color: #FCC125;
+} */
+
+.individual_skill_job_post button{
+    
+    padding: 10px 20px;
+    margin: 0;
+    color: #FCC125;
+    background-color: #0464c300;
+
+}
+
+.post_job_btn{
+    background-color: #21364B;
+    color: #FCC125;
+    border-radius: 5px;
+    margin-bottom: 70px;
+
+}
+
+.post_job_hr{
+    height: 2px;
+    background-color: #21364B;
+}
+
+.backbtn{
+    width: 40px;
+    top: 25%;
+    color: #21364B;
+    position: absolute;
+    left: 5%;
+    z-index: 5;
+    float: left;
+}
+
+@media screen and (max-width:1000px) {
+    
+
+}

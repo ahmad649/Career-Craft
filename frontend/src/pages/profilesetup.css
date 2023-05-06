@@ -1,0 +1,121 @@
+
+.stud_nav{
+    
+    height: 110px;
+    background-color: #21364B;
+}
+
+.users2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    height: auto;
+    padding: 2%;
+
+}
+
+.users2 h1{
+    font-size: 3rem;
+}
+.student_Profile_Setup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.setup{
+    width: 60%;
+    /* display: flex;
+    flex-direction: column; */
+
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+    text-align: left;
+}
+
+
+.Sep_divs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    
+}
+
+.Sep_divs input{
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid #333;
+    margin: 2%;
+
+}
+
+input{
+    width: 40%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid #333;
+    margin: 2%;
+
+}
+
+/* .skills, .bottom_div{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.bottom_div{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stud_prof_individual_key{
+    width: auto;
+    max-width: 150px;
+    padding: 10 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 3px;
+    margin-bottom: 10px;
+    background-color: #21364B;
+    color: #FCC125;
+    text-align: center;
+}
+
+.individual_skill_stud_prof button{
+    padding: 10px 20px;
+    margin: 0;
+    color: #FCC125;
+    background-color: #0464c300;
+}
+
+
+.dataResult{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+}

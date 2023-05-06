@@ -1,0 +1,251 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    /* height: 100%; */
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.recruiter_home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    text-align: center;
+    padding-top: 5%;
+}   
+
+.Top{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #fff;
+    height: 90vh;
+    
+}
+
+.Top h1{
+    font-size: 5.5rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Top p{
+    margin-top: -10px;
+    margin-bottom: 2rem;
+
+}
+
+.Topbtns{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.TopLbtn{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #21364B;
+    color:#FCC125;
+    border: .2rem solid #FCC125;
+}
+.TopLbtn:hover{
+    background-color: #FCC125;
+    color:#21364B;
+    border: .2rem solid #FCC125;
+}
+.TopRbtn:hover{
+    background-color: #21364B;
+    color:#FCC125;
+    border: .2rem solid #FCC125;
+}
+
+.Bottom{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 2vh 5vh 2vh 2vh;
+}
+
+.Bottom h1{
+    color: #21364B;
+
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #21364B;
+    border-radius: 5%;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #FCC125;
+    
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.Right{
+    width: 50%;
+}
+
+.right_icon{
+    height: 50%;
+    width: 50%;
+    display: flex;    
+}
+
+.landingPageNav{
+    position: relative;
+}
+
+.scroll_Icon_2{
+    width: 2.5vw;
+    margin:0vh 0 6vh 0;
+    cursor: pointer;
+    background-color: #21364B;
+    
+}
+
+.scroll_Icon_2:hover{
+    border: 3px solid #FCC125;
+    /* hei */
+    border-radius: 30px;
+}
+
+.up_back{
+    background-color:#21364B;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1126px) {
+    .scroll_Icon_2{
+        width: 4vw;
+    }
+    .cards{
+        display: inline-block;
+        font-size: medium;
+    }
+    
+    .cards h1{
+        font-size: medium;
+        width: 100%;
+        
+    }
+    .card{
+        display: flex;
+        width: 75%;
+        border-radius: 1%;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .Topbtns{
+        width: 75%;
+    }
+    .Topbtns button{
+        width: 35%;
+
+    }
+    .scroll_Icon_2{
+        width: 6vw;
+    }
+  }
+
+
+@media screen and (max-width: 992px) {
+    .content {
+      width: 100%;
+    }
+    .Right{
+        width: 40%;
+        
+    }
+    .right_icon{
+        width: 55%;
+        height: 55%;
+    }
+    .Topbtns button{
+        width: 33%;
+
+    }
+    .scroll_Icon_2{
+        width: 3.5vw;
+    }
+  }
+
+
+@media screen and (max-width: 900px) {
+    .content {
+      width: 100%;
+    }
+    .Right{
+        display: none;
+    }
+    .Topbtns{
+        width: 75%;
+    }
+    
+    .scroll_Icon_2{
+        width: 5vw;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .content {
+      width: 90%;
+    }
+    .Right{
+        width: 0%;
+    }
+   
+    
+    .cards h1{
+        font-size: medium;
+        width: 100%;
+        
+    }
+    .card{
+        display: flex;
+        width: 75%;
+        border-radius: 1%;
+    }
+    .scroll_Icon_2{
+        width: 6vw;
+    }
+  }
+
+
+

@@ -1,0 +1,215 @@
+.SelectedPathMain{
+    width: 85vw;
+    /* background-color: violet; */
+    margin: 7% auto;
+    text-align: left;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+
+.SelectedPathMain h1{
+    font-size: 3rem;
+    color: #21364B;
+}
+
+.SelectedPathMain h3{
+    font-size: 2rem;
+    color: #21364B;
+}
+
+.skills_holder{
+    /* background-color: aqua; */
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_legend{
+    /* background-color: #FCC125; */
+    width: 20rem;
+    /* justify-content: space-between; */
+    margin-left: 4rem;
+}
+
+
+.skills_legend h5{
+    /* float: right; */
+    font-size: 1rem;
+    font-weight: bold;
+    color: #21364B;
+    padding-left: 10px;
+}
+
+.blue_legend_holder{
+    
+    border-radius: 25px;
+    color: #FCC125;
+    height: 20px;
+    margin-right: 20px;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #21364B;
+    border: 2px solid #FCC125;
+}
+
+.hollow_legend_holder{
+    /* float: left; */
+    border-radius: 25px;
+    height: 10rem;
+    font-size: 1rem;
+    margin-right: 20px;
+    padding: 1rem;
+    border: 2px solid #FCC125;
+}
+
+.obtained_skill{
+    margin-bottom: 3rem;
+    /* height: 100px; */
+}
+
+.navigateToJobsBtn{
+    border-radius: 25px;
+    /* border: 2px solid #21364B; */
+    width: fit-content;
+    /* padding: 0.005%; */
+    margin: 3rem auto;
+    background-color: #21364B;
+}
+
+.navigateToJobsBtn h3{
+    padding: 10px 35px;
+    font-size: 1.5rem;
+    color: #FCC125;
+}
+
+.navigateToJobsBtn:hover{
+    cursor: pointer;
+    background-color: #FCC125;
+    color: #21364B;
+}
+
+
+.navigateToJobsBtn:hover h3{
+    color: #21364B;
+} 
+
+
+.blue_individual_skill{
+    background-color: #21364B;
+    color: #FCC125;
+    border-radius: 10px;
+    border: 2px solid #FCC125;
+    text-align: center;
+    min-width: 7vw;
+    width: max-content;
+
+    padding: 3vh;
+    margin: 8px;
+}
+
+.hollow_individual_skill{
+
+    color: #21364B;
+    border: 2px solid #FCC125;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 7vw;
+    width: max-content;
+    padding: 3vh;
+    margin: 8px;
+}
+
+.selected_path_jobs{
+    background-color: #fff;
+}
+
+.individual_job_selected_path{
+    border: 4px solid #21364B;
+}
+
+.SelectedPathMain h4{
+    color: #21364B;
+    font-size: 1.3em;
+}
+
+.skills_container2{
+
+    position: relative;
+    margin-left: 1%;
+    /* margin-top: 1%; */
+    /* background-color: bisque; */
+    /* width: 20%; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* justify-content: space-between; */
+    grid-auto-columns: auto;
+}
+
+.ind_skill{
+    width: auto;
+    padding: 10px;
+    font-weight: 500;
+    /* background-color: #FCC125; */
+}
+
+.subscript_text{
+    display: none;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1340px) {
+    .skills_holder{
+        display: block;
+        
+    }
+    .skills_legend{
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+    }
+    #stud-skills_main{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (max-width: 1148px) {
+ 
+
+    .skills_container2{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
+    .skills_legend{
+        display: grid;
+        justify-content: start;
+        margin-left: 4%;
+    }
+    
+    .skills_container2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 640px) {
+    
+    #stud-head_main{
+        text-align: center;
+    }
+    #stud-path_info{
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 575px) {
+ 
+    .skills_container2{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+   
+}

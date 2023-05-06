@@ -1,0 +1,140 @@
+
+.navbarholder{
+    position: relative;
+    background-color: #21364B;
+    height: 14vh;
+    width: 100vw ;
+    z-index: 21;
+}
+
+
+.selected_job_body h4{
+    color: #fCC125;
+}
+
+.selectedJob{
+    width: 100vw;
+    
+}
+.selected_job_main_body{
+    padding-top: 6vh;
+}
+
+.Selected_job_description {
+    overflow: auto;
+}
+
+/* FCC125 */
+
+.Selected_job_description pre{
+    /* .job_description{
+        padding: 20px;
+        width: 90%;
+    } */
+    font-size: 1.2em;
+    color: #fCC125;
+
+    padding: 1vh 2vw;
+    text-align: left;
+    
+}
+
+.heading_selected_job h2{
+    
+    /* width: 25vw; */
+    color: #21364B;
+    text-align: left;
+    margin-left: 12vw;
+    margin-bottom: 6vh;
+}
+
+.individual_skill{
+    background-color: #fCC125;
+    color: #21364B;
+    border-radius: 10px;
+    /* border: 2px solid #21364B; */
+    min-width: 120px;
+    max-width: 200px;
+    padding: 1vh;
+}
+.skills_main h3{
+    color: #fCC125;
+}
+
+.all_candidates{
+    width: 80vw;
+    margin: auto;
+
+}
+
+.individual_candidate{
+    /* width: 80vw; */
+    border: 3px solid #21364B;
+    border-radius: 15px;
+    padding:3vh;
+    margin-bottom: 3vh;
+}
+
+.individual_candidate:hover{
+    background-color: #f8f0e0;
+    cursor: pointer;
+}
+
+
+.top_row_details{
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: left;
+    margin-left: 3vh;
+}
+
+.top_row_details h3{
+    color: #21364B;
+}
+
+.skills_main h3{
+    color: #21364B;
+}
+
+.label{
+    color: #21364B;
+    /* width: 150px; */
+    font-weight: bolder;
+    padding-right: 2vh;
+}
+
+.selected_job_body{
+    background-color: #21364B;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 25px;
+    border: 3px solid #fCC125;
+
+}
+
+.selected_job_body:hover  > .Selected_job_description{
+    
+    height: 300px;
+    transition: 1.5s;
+}
+
+
+
+.Selected_job_description{
+    height: 120px;
+    overflow-y: hidden;
+    transition: height 1s;
+    text-overflow: ellipsis;
+}
+
+.Selected_job_description:hover{
+    /* transition-property:height; */
+    
+    /* height: fit-content; */
+    height: 300px;
+    transition: 1.5s;
+    
+}
+

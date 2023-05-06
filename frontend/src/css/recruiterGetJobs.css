@@ -1,0 +1,104 @@
+
+.postedJobs{
+    top: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color:#21364B;
+}
+
+.heading_posted_jobs{
+    position: relative;
+    top: 100px;
+    margin-top: 0px;
+    margin-bottom: 15%;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.heading_posted_jobs h2, h4, h5{
+    padding: 0;
+    margin: 3px;
+}
+
+.heading_posted_jobs h2{
+    font-size: 2rem;
+    color: #FCC125;
+}
+
+.get_jobs_body{
+    padding: 5% 0;
+    width: 85vw;
+    margin: auto;
+}
+.navbarholder{
+    top: 0;
+    margin-top: -20px;
+}
+
+.individual_job{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+
+.individual_job:hover{
+    background-color: #f8f0e0;
+    cursor: pointer;
+}
+
+
+
+.individual_job_btn{
+    position: relative;
+    width: auto;
+    padding: 10px;
+    margin-right: 20px;
+    border: 0;
+
+}
+
+.individual_job_btn:hover{
+    background-color: #21364B;
+    color: #FCC125;
+
+}
+
+.job_label{
+    width: 500px;
+    max-width: 600px;
+    display: flex;
+}
+
+.btnHolder{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-right: 40px;
+    float: right;
+}
+
+.row_jd{
+    padding: 20px 0px 10px 20px;
+    display: flex;
+    
+    /* justify-content: space-between; */
+    width: 50%;
+}
+
+.job_description{
+    padding: 20px;
+    width: 90%;
+}
+
+.job_description h4{
+    /* float: left; */
+    padding: 10px;
+    text-align: left;
+}
+

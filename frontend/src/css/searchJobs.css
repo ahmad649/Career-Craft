@@ -1,0 +1,363 @@
+.searchJobsMain {
+    position: absolute;
+    background-color: #21364B;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.searchJobsMain h2 {
+    color: #FCC125;
+    font-size: 3rem;
+}
+
+
+
+.searchJobForm {
+    padding: 1% 1% 5% 2%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchJobForm input[type="text"] {
+    padding: 1rem 2rem;
+}
+
+.searchJobForm {
+    padding: 1% 1% 5% 2%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.keywordField {
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    padding-right: 0;
+    margin: 0;
+}
+
+.locationField {
+    padding: 0rem 1rem;
+    border: none;
+    border-left: dotted;
+    border-radius: 0;
+    margin: 0;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.searchBtn {
+    /* margin-right: 20px; */
+    left: -20px;
+    margin-top: 0;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.searchBtn:hover {
+    color: #FCC125;
+    background-color: #21364B;
+    border: 2px solid #FCC125;
+}
+
+
+.all_searchJobs {
+    background-color: #21364B;
+}
+
+.individual_job_serachJob {
+
+    border-radius: 30px;
+    padding: 1rem;
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.individual_job_serachJob h3 {
+    /* text-decoration: none; */
+    margin: 0 0 18px 5px;
+    color: #21364B;
+
+}
+
+
+
+
+.searchJob_btnHolder {
+    /* background-color: pink;  */
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.searchJob_btnHolder button {
+    /* background-color: pink;  */
+    width: auto;
+    padding: 10px;
+    margin-left: 3%;
+    /* margin-top: -10%; */
+}
+
+
+
+
+.skills_main {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.skills_main h3 {
+    padding: 1rem;
+    
+}
+
+.skills_container {
+    position: relative;
+    margin-left: 1%;
+    margin-top: 1%;
+    /* background-color: bisque; */
+    /* width: 20%; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    justify-content: space-between;
+}
+
+.individual_skill {
+    width: auto;
+    max-width: 200px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 3px;
+    background-color: #21364B;
+    color: #FCC125;
+
+}
+
+
+
+
+/* code for loader below */
+
+
+.loader {
+    background-color: #21364B;
+    left: 48vw;
+    top:52vh;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    z-index: 200;
+    display: inline-block;
+    /* position: relative; */
+    border: 3px solid;
+    border-color: #FCC125 #FCC125 transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid;
+    border-color: transparent #FCC125 #FCC125;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    animation: rotationBack 0.5s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotationBack {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+#search-jobs{
+    overflow-x: scroll;
+    display: flex;
+    
+}
+
+@media screen and (max-width:1126px) {
+   
+}
+
+
+@media screen and (max-width: 992px) {
+    .searchJobsMain h2 {
+        color: #FCC125;
+        font-size: 2rem;
+        margin-top: 3%;
+    }
+    
+    
+    
+    .searchJobForm {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 27vh;
+        width: 70%;
+    }
+    .keywordField {
+        border-radius: 10px;
+        margin: 2%;
+    }
+    
+    .locationField {
+        border-radius: 10px;
+        border-left: none;
+        margin: 2%;
+    }
+    
+    .searchBtn {
+        border-radius: 10px;
+        left: 0;
+        margin: 2%;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .searchJobsMain h2 {
+
+        margin-top: 10%;
+    }
+    
+   
+    
+    .searchJobForm {    
+        width: 90%;
+    }
+    .searchJobForm input[type="text"] {
+        padding: .5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .searchJobForm {
+        
+        width: 100%;
+    }
+  
+}
+
+@media screen and (max-width: 400px) {
+    
+    .searchJobsMain h2 {
+    margin-top: 20%;
+    font-size: 1.75rem;
+    
+    }
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #FCC125;
+    color: #21364B;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FCC125 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.pagination_btn{
+    width: 3em;
+    height: 3em;
+    padding-top: 0;
+    /* padding-bottom: 3em; */
+    
+    margin: 0 3em;
+    margin-bottom: 3em;
+}
+
+.pagination_btn:hover{
+    border: 3px solid #FCC125;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 760px){
+    .pagination_btn{
+        width: 2em;
+        height: 2em;
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    .pagination_btn{
+        width: 1.3em;
+        height: 1.3em;
+        
+    }
+}

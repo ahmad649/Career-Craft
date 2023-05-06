@@ -1,0 +1,180 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.edit_setup{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    
+}
+.bottom-form-2{
+    width: 100%;
+    display: flex;
+    
+}
+
+.Edit_jobs_divs{
+    width: 100%;
+    padding: 0;
+}
+
+.backgroundBlur{
+    position: fixed;
+    backdrop-filter: blur(2px);
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: 30;
+}
+
+.half_divs{
+    width: 50%;
+}
+
+.job_description1 textarea{
+    background-color: #f6f9fc;
+    width: 30vw;
+    border-radius: 20px;
+    padding: 2rem;
+    border-width: 3px;
+    border-color: #21364B;
+    height: 30vh;
+    
+}
+
+.job_description1 textarea::-webkit-scrollbar{
+    display:none;
+}
+
+.mainJobDetail{
+    border-radius: 25px;
+    padding: 3%;
+    margin: auto;
+    margin-top: 15vh;
+    /* position: relative; */
+    /* margin: 1%; */
+    background-color: rgb(255, 255, 255);
+    width: 75vw; 
+    
+    /* height: 70vh; */
+    box-shadow: 0px 0px 30px grey;
+    /* text-align: center; */
+}
+
+
+.jobSkills{
+    display: flex;
+}
+
+.skills{
+    justify-content: flex-start;
+    display: flex;
+}
+
+.closeBtnJobDetail{
+    float: right;
+    width: min-content;
+}
+
+.applyBtnJobDetail{
+    background-color: #21364B;
+    color: #FCC125;
+    border-radius: 0.5rem;    
+    
+}
+
+
+
+.left_aligned{
+    text-align: left;
+}
+#view-details-skills{
+
+    overflow-x: scroll;
+    display: flex;
+
+    
+}
+#view-details-main{
+    width: 100%;
+    justify-content: center;
+}
+/* .individual_skill{
+    width: auto;
+    max-width: 200px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 3px;
+    background-color: #21364B;
+    color: #FCC125;
+} */
+
+
+
+.individual_skill_edit_key{
+
+    width: auto;
+    max-width: 200px;
+    padding: 0 5%;
+    border-radius: 5px;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    margin: 0 2%;
+    margin-bottom: 10px;
+    background-color: #21364B;
+    color: #FCC125;
+    text-align: center;
+}
+.individual_skill_edit_job button{
+    padding: 3% 15%;
+    margin: 0;
+    color: #FCC125;
+    background-color: #0464c300;
+
+
+}
+
+.edit_skills{
+    /* width: 2000px; */
+    overflow-x: scroll;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.edit_job_skill_conainer{
+    width: auto;
+    /* background-color: bisque; */
+}
+
+.jd_long{
+    overflow-wrap: break-word;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    height: 25vh;
+    text-align: left;
+    
+}
+
+
+
+@media screen and (max-width: 760px) {
+    
+    #view-details-h3{
+    font-size: 1rem;
+    }
+    .jd_long{
+       font-size: 0.9rem;
+    }
+
+    .applyBtnJobDetail{
+        width: 40%;
+    }
+}

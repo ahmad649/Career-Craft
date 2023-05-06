@@ -1,0 +1,136 @@
+.login_main{
+  display: flex;
+  justify-content: space-between;
+}
+.form1 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: auto;
+
+}
+.create1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #21364B;
+  height: 100vh;
+
+}
+
+.create1 h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.create1 label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.create1 input[type="text"],
+.create1 input[type="password"] {
+  width: 40%;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.create1 button {
+  width: 30%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #FCC125;
+  border-radius: 10px;
+  color: #21364B;
+  border: none;
+  cursor: pointer;
+  /* width: 60%; */
+}
+
+.create1 button:hover {
+
+  background-color: #21364B;
+  color: #FCC125;
+}
+
+
+
+.alternativeSignIn{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  background-color: #21364B;
+  color: #fff;
+  height: 100vh;
+}
+
+.alternativeSignIn h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+.btnSignUp{
+  width: 60%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.btnSignUp:hover {
+
+  background-color: #21364B;
+  color: #FCC125;
+  border-style: solid;
+  border-color: #FCC125;
+}
+
+@media screen { /*Max width of any device!*/
+  .hide{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .alternativeSignIn{
+    display: none;
+  }
+  .login_main{
+    justify-content: center;
+  }
+  .create1 button {
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+    color: #21364B ;
+  }
+  .create1 h3{
+    font-size: 3.5rem;
+
+  }
+  .btnSignUp{
+    width: 65%;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+  }
+  .hide{
+    display: block;
+  }
+  .create1 input[type="text"],
+  .create1 input[type="password"] {
+  width: 75%;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+}

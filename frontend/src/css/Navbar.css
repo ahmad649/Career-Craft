@@ -1,0 +1,178 @@
+.container {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1% 2%;
+  z-index: 2;
+  width: 100%;
+  margin: 0px; 
+}
+
+
+.logo{
+  /* height: 50%; */
+  top:0;
+  height: auto;
+  width: 50%;
+}
+
+
+.left_bar{
+  margin-left: 2%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* height: 10%; */
+  /* width: 40%; */
+}
+
+
+.right_bar{
+  z-index: inherit;
+  right: 4rem;
+  position: relative;
+  justify-content: space-evenly;
+  text-align: right;
+}
+
+
+.right_bar ul{
+  border-radius: 25px;
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  margin-top: 3%;
+  justify-content: center;
+  padding-right: 50px;
+  align-items: center;
+}
+
+
+.right_bar li a{
+  width: 100px;
+  padding: 0 20px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+
+.right_bar li a:hover{
+  font-weight: bold;
+  
+}
+
+
+h1 {
+  font-size: 1.25rem;
+  margin: 1;
+  color: #FCC125;
+}
+
+a{
+  /* height: 40%; */
+  text-decoration: none;
+}
+
+button {                        
+  /* universally chal raha. change this! */
+  background-color: #FCC125;
+  color: #21364B;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.navbtns{
+  
+  color: #FCC125;
+  padding: 2%;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 50%;
+}
+
+
+
+.menu_controller{
+  width: 2em;
+  position: absolute;
+  top:2.5em;
+  right: 0.5em;
+}
+
+
+.right_bar2{
+  /* float: right; */
+  top: 1.5em;
+  /* right: -20em; */
+  /* z-index: 20; */
+  width: 30%;
+  right: 8rem;
+  display: none;
+  position: absolute;
+
+  transition: width 1.1s ease;
+  /* background-color: aqua; */
+  justify-content: space-evenly;
+  text-align: right;
+}
+
+/* .right_bar2 ul{
+  list-style: none;
+}
+
+.right_bar2 li a{
+  width: 100px;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+
+.right_bar2 li a:hover{
+  font-weight: bold;
+} */
+
+
+@media (min-width: 1126px) {
+  
+  .menu_controller{
+    display: none;
+  }
+
+  .right_bar2{
+    display: flex;
+  }
+
+  .navbtns{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .right_bar{
+    display: none;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .right_bar{
+    right: 2rem;
+    
+  }
+
+}
+
+
+
+

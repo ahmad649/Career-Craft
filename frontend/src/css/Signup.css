@@ -1,0 +1,270 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.signup_main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.alternativeSignup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: #21364B;
+    color: #fff;
+    height: 100vh;
+}
+
+.alternativeSignup h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.form {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+}
+
+.create {
+    width: 70%;
+    margin: auto auto;
+    padding-top: 5rem;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.create h3 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.create label {
+    display: flex;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #21364B;
+    width: 100%;
+
+    align-items: center;
+}
+
+.create input[type="text"],
+.create input[type="password"] {
+    width: 75%;
+    font-size: 1.5rem;
+    border: .25rem solid #21364B;
+    transition: width ease 1.1s;
+}
+
+.signInBtn,
+.signUpBtn {
+    padding: 1rem;
+    background-color: #FCC125;
+    color: #21364B;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 35%;
+}
+
+.signInBtn:hover {
+    background-color: #21364B;
+
+    border-style: solid;
+    color: #FCC125;
+}
+
+.signUpBtn:hover {
+    background-color: #21364B;
+    color: #FCC125;
+}
+
+
+
+.radios {
+    margin: auto;
+    width: 60%;
+    transition: width ease 1.1s;
+}
+
+/* .create input[type="radio"] {
+    align-items: center;   
+    justify-content: center;
+    width: 75%;
+    height: 50px;
+    color: #f00;
+    
+}
+
+*/
+
+.radioBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.customRadioContainer {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.customRadioBtn {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px none #21364B;
+}
+
+.customRadioBtnInner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #21364B;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="radio"]:checked+.customRadioBtn .customRadioBtnInner {
+    background-color: #21364B;
+}
+
+/* For the error handling message*/
+.individual_divisions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen {
+    .hide2{
+        display: none;
+      }
+}
+
+@media screen and (max-width: 1240px){
+    .radios {
+        width: 80%;
+    }
+    .create input[type="text"],
+    .create input[type="password"] {
+    width: 85%;
+
+  }
+  }
+
+
+
+@media screen and (max-width: 910px){
+    .hide2{
+        display: block;
+      }
+    
+    .alternativeSignup{
+      display: none;
+    }
+    .signup_main{
+      justify-content: center;
+    }
+    .form{
+        width: 100%;
+    }
+    .create button {
+      width: 30%;
+      font-size: 1rem;
+      padding: 0.75rem;
+      margin-bottom: .5rem;
+      color: #21364B ;
+    }
+    .create h3{
+      font-size: 3.5rem;
+  
+    }
+    .btnSignUp{
+      width: 65%;
+      font-size: 1.5rem;
+      padding: 0.75rem;
+    }
+    
+    .create input[type="text"],
+    .create input[type="password"] {
+    width: 75%;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+  }
+    .radios {
+        width: 60%;
+        
+    }
+    .radioBtns label{
+        font-size: 1.3rem;
+    }
+  }
+@media screen and (max-width: 690px){
+    .radios {
+        width: 65%;
+        
+    }
+    .radioBtns label{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width: 512px){
+    .create input[type="text"],
+    .create input[type="password"] {
+        font-size: 1.3rem;
+
+  }
+  .radios {
+    width: 75%;
+    
+}
+  .radioBtns label{
+    font-size: .9rem;
+}
+
+}

@@ -1,0 +1,131 @@
+
+.recnavBarHolder{
+    position: relative;
+    width: 100%;
+    background-color: #21364B;
+    height: 100px;
+}
+
+
+.rec_sep_divs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    padding-top: 4vh;
+    
+}
+.rec_separate_divisions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rec_sep_divs input{
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid #333;
+    margin: 2%;
+}
+
+.rec_setup_form{
+    width: 70%;
+    padding: 20px;
+}
+
+.slider{
+    font-size: 1rem;
+}
+
+.heading_recruiter_profile_setup{
+    padding: 20px;
+}
+
+.heading_recruiter_profile_setup h1{
+    color: #21364B;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.heading_recruiter_profile_setup h3{
+    color: #21364B;
+    font-size: 1rem;
+
+}
+
+.Recruiter_Profile_Setup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rec_setup_labels{
+    color: #21364B;
+    float: left;
+    padding-left: 1%;
+}
+
+.slider_setting{
+    color: #21364B;
+}
+
+.logo_preview img{
+    margin-top: 10vh;
+    margin-right: 10vw;
+    float: right;
+    width: 20vw;
+    height: auto;
+}
+
+.rec_extra_padding{
+    /* margin-top: 10vh; */
+    padding-top: 4vh;
+}
+
+@media screen and (max-width: 800px) {
+    .rec_sep_divs{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    .save_btn{
+        width: 35%;
+    }
+    .logo_preview img{
+        margin-top: 10vh;
+        margin-right: 10vw;
+        float: right;
+        width: 20vw;
+        height: auto;
+        margin-bottom: 5vh;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .rec_sep_divs{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    
+    .add_btn{
+        font-size: small;
+        width: 40%;
+    }
+    .save_btn{
+        font-size: small;
+        width: 40%;
+    }
+
+}

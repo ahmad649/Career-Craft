@@ -1,0 +1,408 @@
+
+.stud_nav{
+    position: relative;
+    height: 110px;
+    background-color: #21364B;
+}
+
+.users2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    height: auto;
+    padding: 2%;
+} 
+
+.users2 h1{
+    font-size: 3rem;
+    color: #21364B;
+}
+.student_Profile_Setup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.student_Profile_Setup h3{
+    color: #21364B;
+}
+
+
+.setup{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+    text-align: left;
+}
+
+
+.Sep_divs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    
+}
+
+.Sep_divs input{
+    width: 80%;
+    color: #21364B;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid #21364B;
+    margin: 2%;
+
+}
+
+input{
+    width: 40%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid #21364B;
+    margin: 2%;
+    
+}
+
+
+
+  
+  .checkbox-label {
+    margin-right: 24px;
+  }
+  
+  .checkbox-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    user-select: none;
+    padding-bottom: 1em
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 3px solid #FCC125;
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out;
+    transform: scale(1.5);
+  }
+  
+  .checkbox-container:hover .checkmark {
+    background-color: #FCC125;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-image: linear-gradient(to bottom right, #21364B, #105192);
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+
+.separate_divisions input{
+    width: 75%;
+    margin: 15px;
+    
+    
+}
+
+#skills-input{
+    width: 75%;
+}
+/* .skills, .bottom_div{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.bottom_div{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stud_prof_individual_key{
+    width: auto;
+    padding: 10 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 3px;
+    margin-bottom: 10px;
+    background-color: #21364B;
+    color: #FCC125;
+    text-align: center;
+}
+
+.individual_skill_stud_prof button{
+    padding: 10px 15px;
+    margin: 0;
+    color: #FCC125;
+    background-color: #0464c300;
+}
+
+
+.dataResult{
+    margin-top: 5px;
+    margin-left: 12%;
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.all_experiences{
+    width: 100%;
+    
+}
+
+/* .file_upload{
+    
+    width: 2%;
+} */
+.resume_preview{
+    color: #21364B;
+    /* position: absolute; */
+    /* float: right; */
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.individual_experience{
+    border-radius: 25px;
+    position: relative;
+    border: 3px solid #21364B;
+    width: 70%;
+    /* background-color: #bdccdb; */
+    margin: 5em 0;
+    padding: 1em 3em;
+}
+.upper_part{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.upper_part input{
+    border-radius: 0;
+    border: none;
+    border-bottom: 3px solid #21364B;
+    color: #21364B;
+}
+
+.changePasswordBtn{
+    display: flex;
+    justify-content: end;
+    margin: 2%;
+}
+
+.remove_btn{
+    width: min-content;
+    height: min-content;
+    float: right;
+    padding: 10px;
+    background-color: white;
+    color: #21364B;
+    font-weight: bolder;
+}
+
+.remove_btn:hover{
+    
+    background-color: #21364B;
+    color: #FCC125;
+
+}
+
+
+.label_description{
+    color: #21364B;
+    font-weight: bolder
+}
+
+.lower_part textarea{
+    color: #21364B;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px 5px;
+    font-weight: bolder;
+    /* height: auto; */
+    min-height:120px;
+}
+
+.add_btn{
+    top: 0;
+    /* float: right; */
+    /* margin-bottom: 100px; */
+    left: 40%;
+    margin: 0;
+    margin-bottom:3em;
+    position: relative;
+}
+
+.btnholder{
+    margin-top: -2em;
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    /* position: relative; */
+    /* background-color: #c6c0ae; */
+    right: 0;
+}
+
+.save_btn{
+    padding: 1em;
+    border-radius: 15px;
+    color: #FCC125;
+    background-color: #21364B;
+    font-weight: bold;
+    font-size: large;
+}
+
+.save_btn:hover{
+    
+    color: #21364B;
+    background-color: #FCC125;
+    font-weight: bold;
+    font-size: large;
+}
+
+.savebtnholder{
+    /* background-color: #b4c2d0; */
+    text-align: center;
+}
+
+.all_experiences h3{
+    padding: 3em 7em 0 0;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 960px) {
+    #upper-part-stud{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .upper_part input{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .users2 h1{
+        font-size: 2rem;
+    }
+    
+    .all_experiences h3{
+        margin-bottom: -1em;
+    }
+    
+    .Sep_divs{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    .skills_container {
+        grid-template-columns: repeat(3, 1fr);
+      
+    }
+    .add_btn{
+        width: 35%;
+    }
+    .save_btn{
+        width: 35%;
+    }
+    .stud_prof_individual_key p{
+        font-size: medium;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .users2 h1{
+        font-size: 1.5rem;
+    }
+    
+    .dataResult{
+        width: 75%;
+    }
+
+    .individual_experience{
+        padding: 1em 1.5em;
+        width: 90%;
+    }
+    .Sep_divs{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    .skills_container {
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+    .add_btn{
+        font-size: small;
+        width: 40%;
+    }
+    .save_btn{
+        font-size: small;
+        width: 40%;
+    }
+    .stud_prof_individual_key p{
+        font-size: small;
+        
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,302 @@
+.profileSetupIcon{
+    width: 5%;
+    margin-right: 50px;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.stud_home_headings h1{
+    font-size: 3rem;
+    color: #21364B;
+    padding: 0;
+    padding-top: 3%;
+    margin: 0;
+}
+
+.stud_home_sub_heading{
+    font-size: 2rem;
+    color: #21364B;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1%;
+    /* margin-bottom: 5; */
+}
+
+.careerPathsHolder{
+    /* background-color: #0888ac; */
+    min-width: 50px;
+    min-height: 50px;
+    /* max-width: 50%; */
+}
+.career_paths_main{
+    /* background-color: aqua; */
+    align-self: center;
+    text-align: center;
+}
+
+.career_paths_container {
+    margin: auto;
+    /* position: relative; */
+    /* margin-left: 1%; */
+    margin-top: 1%;
+    /* background-color: bisque; */
+    /* width: 40%; */
+    padding: 10px 200px;
+    /* padding-top: 0; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100%;
+    /* justify-content: space-between; */
+}
+
+#alljobshome{
+    padding-top: 7vh;
+}
+
+.individual_career_path{
+    background-color: #21364B;
+    text-align: center;
+    padding: 5% 2%;
+    margin: 10% 3%;
+    border-radius: 30px;
+    border-color: #FCC125;
+    border: 2px #FCC125;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20% 20/%; */
+}
+
+
+.individual_career_path:hover{
+    transition: 0.3s;
+    border-style: solid;
+    border-color: #FCC125;
+    border-width: 3px;
+    cursor: pointer;
+    /* border: 2px #FCC125; */
+}
+
+
+
+.individual_path{
+    color: #FCC125;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.individual_info{
+    color: white;
+}
+
+.tandc{
+    /* background-color: rgba(0, 255, 255, 0.399); */
+    height: 100vh;
+    width: 100vw;
+    /* position: sticky; */
+    position: fixed;
+    z-index: 12;
+    top:   0;
+    backdrop-filter: blur(6px);
+}
+
+.tandcBottom{
+    background-color: #21364B;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding-bottom: 20px;
+    color: white;
+    /* border-top: 10em;
+    border-color: #FCC125; */
+}
+
+.stud_home_individual_job{
+    background-color:#f8f0e0;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 25px;
+}
+.small_text{
+    color: #21364B;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 5vh 0;
+}
+
+.tandcBottom a{
+    color: #FCC125;
+}
+
+.tandcBtns button{
+    margin: 0 50px;
+    width: auto;
+}
+
+.scoll_Icon{
+    width: 3.5%;
+    margin: 7vh 0 10vh 0;
+    cursor: pointer;
+}
+
+.scoll_Icon:hover{
+    border: 3px solid #FCC125;
+    /* hei */
+    border-radius: 30px;
+}
+
+.stud_extra_padding{
+    margin-top: 20vh;
+}
+
+.extra_padding h4{
+    padding-top: 0;
+    font-size: 1.7rem;
+    font-weight:500;
+}
+
+.extra_padding button{
+    background-color: #21364B;
+    color: #FCC125;
+}
+
+.extra_padding button:hover{
+    background-color: #FCC125;
+    color: #21364B;
+}
+
+.job_details .row_jd{
+    font-size: 1rem;
+}
+#stud_home_skills{
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 1280px) {
+    .career_paths_container {
+        padding: 0;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .job_details .row_jd{
+        font-size: .9rem;
+    }
+    #stud_home_skill{
+        font-size: 1em;
+    }
+    .profileSetupIcon{
+        margin-right: 20px;
+        
+    }
+    .scoll_Icon {
+        width: 3.5%;
+        margin-top: 1vh;
+    }
+    .stud_home_headings h1{
+        font-size: 2rem;
+    }
+    .stud_home_sub_heading{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .profileSetupIcon{
+        width: 7%;
+    }
+    
+    .career_paths_container {
+        padding: 0;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: .5rem;
+    }
+    .individual_career_path{
+        font-size: 0.95em;
+
+    }
+    
+    .small_text{
+        font-size: medium;
+    }
+
+    .job_details .row_jd{
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+   
+    #stud_home_skill{
+        font-size: .9em;
+    }
+    .scoll_Icon{
+        margin-top: 1.5vh;
+
+    }
+}
+
+@media screen and (max-width:760px) {
+    .profileSetupIcon{
+        width: 10%;
+    }
+   
+    #stud_home_skill{
+        font-size: .8em;
+    }
+    .job_details .row_jd{    
+        display: block;
+        font-size: 1rem;
+    }
+    .scoll_Icon{
+        margin-top: 3vh;
+        width: 5.5%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .career_paths_container {
+        padding: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .stud_home_headings h1{
+        font-size: 2rem;
+    }
+    .stud_home_sub_heading{
+        font-size: 1rem;
+    }
+   
+    #stud_home_skill{
+        font-size: small;
+    }
+    .scoll_Icon{
+        margin-top: 3.5vh;
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .career_paths_container {
+        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .individual_career_path{
+        font-size: 0.8em;
+    }
+    .stud_home_headings h1{
+        font-size: 1.75rem;
+    }
+    .stud_home_sub_heading{
+        font-size: 0.8rem;
+    }
+    .small_text{
+        font-size: small;
+    }
+    
+}
